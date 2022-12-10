@@ -1,13 +1,36 @@
 
 
 body{
-background-color:aquamarine;
+background-color:rgb(18, 19, 18);
 }
 
+/*navbar*/
+
+.navbar {
+  
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.navbar a {
+    font-weight: 500;
+    color: lightpink;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+/*end of navbar*/
+
 .jumbotron{  
-background-image: url(..\images\iso-republic-abstract-particle-snow.jpg);
+background-image: url(/Bootstrap-Portfolio/images/iso-republic-neon-abstract-background-11.jpg);
 background-size: cover;
 background-repeat: no-repeat;
+margin: 0;
 height: 500px;
 height: cal(100vh - 25px);
 display: flex;
