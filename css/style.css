@@ -1,13 +1,13 @@
-
-
-body{
-background-color:rgb(18, 19, 18);
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(18, 19, 18);
+    
 }
 
 /*navbar*/
 
 .navbar {
-  
+
     position: fixed;
     top: 0;
     width: 100%;
@@ -26,14 +26,55 @@ background-color:rgb(18, 19, 18);
 
 /*end of navbar*/
 
-.jumbotron{  
-background-image: url(/Bootstrap-Portfolio/images/iso-republic-neon-abstract-background-11.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-margin: 0;
-height: 500px;
-height: cal(100vh - 25px);
-display: flex;
-align-items: center;
-justify-content: center;
+.jumbotron {
+    background-image: url(/Bootstrap-Portfolio/images/iso-republic-neon-abstract-background-11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 500px;
+    height: cal(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.profile_picture {
+    width:300px;
+    height:300px;
+    border:.3em solid whitesmoke;
+    margin-top:100px;
+  }
+.circual-image {
+   border-radius: 50%;
+   
+}
+
+/*Projects section*/
+
+
+.cardContainer {
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+.card {
+    position: relative;
+    display: block;
+    height: 100%;  
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.card__img-top {      
+    width: 100%;
+    height: auto;
+  }
+
+  .card:hover.card {
+    transform: translateY(0);
+
+  }
+  
+  
+  
+  
