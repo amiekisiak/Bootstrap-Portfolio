@@ -1,7 +1,9 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(18, 19, 18);
-    
+    background-color: black;
+    color: black;
+
+
 }
 
 /*navbar*/
@@ -13,8 +15,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #FFFFFF; 
-    opacity: 0.7; 
+    background-color: #FFFFFF;
+    opacity: 0.7;
     filter: alpha(opacity=50);
 }
 
@@ -42,110 +44,139 @@ body {
 }
 
 .profile_picture {
-    width:300px;
-    height:300px;
-    border:.3em solid whitesmoke;
-    margin-top:100px;
-  }
+    width: 300px;
+    height: 300px;
+    border: .3em solid whitesmoke;
+    margin-top: 100px;
+}
+
 .circual-image {
-   border-radius: 50%;
-   
+    border-radius: 50%;
+
 }
 
 /*Projects section*/
 
 
-h2{
-position: center;
-color:#FFFFFF;
+h2 {
+    display:flex;
+    position: center;
+    color: white;
+    opacity: 0.7;
+    padding: 30px;
+    background-color: goldenrod;
 }
+
 .cardContainer {
-  margin-bottom: 15px;
-  margin-top: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
+
 .card {
     position: relative;
     display: block;
-    height: 100%;  
+    height: 100%;
+    box-shadow: 10px 10px lightblue;
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
 }
 
-.card__img-top {      
+.card__img-top {
     width: 100%;
     height: auto;
-  }
+}
 
-  .card:hover.card {
-    transform: translateY(0);
+.card:hover.card {
+    transform: translateY(0%);
 
-  }
-    .btn {
-        display: inline-block;
-        padding: 24px 32px;
-        border: 0;
-        color:black;
-        text-decoration: none;
-        border-radius: 15px;
-        background-color: rgba(255,255,255,0.1);
-        border: 1px solid rgba(255,255,255,0.1);
-        backdrop-filter: blur(30px);
-        color: rgba(255,255,255,0.8);
-        font-size: 14px;
-        letter-spacing: 2px;
-        cursor: pointer;
-        text-transform: uppercase;
-      }
-      
-      /*footer*/
- 
-       footer{
-        margin: auto;
-        width:fit-content;
-        height: 100px;
-        
-       }
-       .footer-social-icons ul{
-        position: absolute;
-        text-align: center;
-        float: none;
-        margin-top: 1000px;
-        top: 50%;
-        left: 50%;
-        padding: 0;
-        margin: 0;
-        transform: translate(-50%, -50%);
-        display: flex;
-        }
-        .footer-social-icons ul li{
-        list-style: none;
-        margin: 0 15px;
-        }
-        .footer-social-icons ul li .fab{
-        
-        font-size: 30px;
-        line-height: 60px;
-        transition: .3s;
-        color: black;
-        }
+}
 
-        .footer-social-icons ul li a{
-            position:relative;
-            display:inline-block;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background-color: #fff;
-            text-align: center;
-            transition: .6s;
-            box-shadow: 0 5px 4px rgba(0,0,0,.5);
-            }
-            .footer-social-icons ul li a:hover{
-            transform: translate(0, -10%);
-            }
-            
-        .footer-social-icons ul li .fab:hover{
-        color: #fff;
-        }
+.btn {
+    display: inline-block;
+    padding: 24px 32px;
+    border: 0;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/*About Me and Skills*/
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: black;
+    padding: 50px;
+    justify-content: space-around;
+    background-color: goldenrod;
+}
+
+#container li {
+    list-style: none;
    
+}
+
+
+
+/*footer*/
+
+footer {
+    margin: auto;
+    width: fit-content;
+    height: 50px;
+}
+
+.footer-social-icons ul {
+    position: absolute;
+    text-align: center;
+    margin-top: 1200px;
+    float: none;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    margin-bottom: 10px;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.footer-social-icons ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.footer-social-icons ul li .fab {
+
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: black;
+}
+
+.footer-social-icons ul li a {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .2s;
+    box-shadow: 0 5px 10px;
+}
+
+.footer-social-icons ul li a:hover {
+    transform: translate(0, -10%);
+}
+
+.footer-social-icons ul li .fab:hover {
+    color: #fff;
+}
