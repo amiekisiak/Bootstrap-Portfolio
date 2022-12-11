@@ -55,6 +55,10 @@ body {
 /*Projects section*/
 
 
+h2{
+position: center;
+color:#FFFFFF;
+}
 .cardContainer {
   margin-bottom: 15px;
   margin-top: 60px;
@@ -68,8 +72,6 @@ body {
     text-decoration: none;
 }
 
-
-
 .card__img-top {      
     width: 100%;
     height: auto;
@@ -79,8 +81,7 @@ body {
     transform: translateY(0);
 
   }
-
-  .btn {
+    .btn {
         display: inline-block;
         padding: 24px 32px;
         border: 0;
@@ -96,52 +97,55 @@ body {
         cursor: pointer;
         text-transform: uppercase;
       }
-     
-
-
-    /*footer*/
-
-    .fa{
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
+      
+      /*footer*/
+ 
+       footer{
+        margin: auto;
+        width:fit-content;
+        height: 100px;
+        
+       }
+       .footer-social-icons ul{
+        position: absolute;
         text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 50%;
-        margin: 0 30px 0 0;
-    
-    }
-    
-      
-      /* Add a hover effect if you want */
-      .fa:hover {
-        opacity: 0.7;
-      }
-      
-      /* Set a specific color for each brand */
-      
-      /* Facebook */
-      .fa-linkedin {
-        background: white;
-        color:#FFFFFF;
-        opacity: 0.7;
-       
-      }
-      
-      /* Twitter */
-      .fa-github {
-        background: white;
-        color: white;
-        opacity: 0.7;
-      }
-      
-      .fa-twitter{
-        background: white;
-        color: white;
-        opacity: 0.7;
-      }
-     
-      
+        float: none;
+        margin-top: 1000px;
+        top: 50%;
+        left: 50%;
+        padding: 0;
+        margin: 0;
+        transform: translate(-50%, -50%);
+        display: flex;
+        }
+        .footer-social-icons ul li{
+        list-style: none;
+        margin: 0 15px;
+        }
+        .footer-social-icons ul li .fab{
+        
+        font-size: 30px;
+        line-height: 60px;
+        transition: .3s;
+        color: black;
+        }
 
-      
+        .footer-social-icons ul li a{
+            position:relative;
+            display:inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #fff;
+            text-align: center;
+            transition: .6s;
+            box-shadow: 0 5px 4px rgba(0,0,0,.5);
+            }
+            .footer-social-icons ul li a:hover{
+            transform: translate(0, -10%);
+            }
+            
+        .footer-social-icons ul li .fab:hover{
+        color: #fff;
+        }
+   
