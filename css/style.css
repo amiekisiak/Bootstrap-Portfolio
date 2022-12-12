@@ -223,20 +223,15 @@ footer {
     height: 80px;
 }
 
-.lab_social_icon_footer {
+ .a {
     margin-top: 40px;
     padding: 69px;
     background-color: yellow;
 }
 
-.lab_social_icon_footer a {
-    color: rgb(51, 51, 51);
+.footer a {
+    color: rgb(0, 0, 0);
     color: #f39c12;
 
 
-}
-
-.lab_social_icon_footer #social-em:hover {
-    color: #f39c12;
-    box-shadow: rgba(255, 255, 255, 0.1);
 }
