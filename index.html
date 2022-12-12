@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,135 +22,146 @@
 <body>
 
     <!--navbar-->
+    <div id="page-container">
+        <div id="content-wrap">
+            <div class="navbar">
+                <a href="#about">About</a>
+                <a href="Work">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
 
-    <div class="navbar">
-        <a href="#about">About</a>
-        <a href="Work">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+            </div>
 
-    </div>
+            <!--hero section-->
 
-    <!--hero section-->
-
-
-    <div class="jumbotron">
-        <img class="profile_picture img circual-image" src="/Bootstrap-Portfolio/images/ola.jpg">
-        <h1 class="display-4">Aleksandra Miekisiak</h1>
-    </div>
-
-
-    <!--Projects Section-->
-
-
-
-    <h2>My Work</h2>
-
-    <div class="container-fluid">
-        <section id="Work">
-
-        <div class="row">
-            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                <div class="card">
-                    <img src="images/iso-republic-abstract-particle-snow.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+            <div class="container-fluid">
+                <div class="jumbotron">
+                    <img class="profile_picture img circual-image" src="./images/ola.jpg">
+                    <h1 class="display-4">Hello my name is Aleksandra Miekisiak</h1>
                 </div>
             </div>
 
-            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                <div class="card">
-                    <img src="images/iso-republic-neon-abstract-background-11.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!--Projects Section-->
+
+
+
+
+
+            <div class="container-fluid">
+                <h2>My Work</h2>
+                <section id="Work">
+                    <div className="container" id="mainContainer">
+                        <div class="row">
+                            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                                <div class="card">
+                                    <img src="images/iso-republic-abstract-particle-snow.jpg" class="card-img-top w-auto"
+                                        alt="..." >
+                                    <div class="card-body">
+                                        <h5 class="card-title">Prework Study Guide</h5>
+                                        <p class="card-text">This study guide was created for bootcamp students to help
+                                            them organise their notes. It contains notes on HTML, CSS, git and
+                                            JavaScript.</p>
+                                        <a href="#https://amiekisiak.github.io/prework-study-guide/"
+                                            class="btn btn-primary">Click</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                                <div class="card">
+                                    <img src="images/iso-republic-neon-abstract-background-11.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project Horiseon</h5>
+                                        <p class="card-text">The purpose of this project was to refactor the existing
+                                            code to make webpage more accesible. </p>
+                                        <a href="#https://amiekisiak.github.io/project-horiseon/"
+                                            class="btn btn-primary">Click</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                                <div class="card">
+                                    <img src="images/iso-republic-neon-abstract-background-11.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Future Project</h5>
+                                        <p class="card-text">TBA</p>
+                                        <a href="#" class="btn btn-primary">Click</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                                <div class="card">
+                                    <img src="images/iso-republic-neon-abstract-background-11.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Future Project</h5>
+                                        <p class="card-text">TBA</p>
+                                        <a href="#" class="btn btn-primary">Click</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+
+
+
+
+                <!--end of my work section-->
+
+
+                <!--Skills Section/About-->
+
+                <div id="container">
+                    <div>
+                        <h2>About Me</h2>
+                        <p>My name is Ola</p>
+                    </div>
+                    <div>
+                        <h2>Skills</h2>
+                        <li>Ola</li>
+                        <li> Pola</li>
+                        <li>Tola</li>
+                    </div>
+                    <div>
+                        <h2>Contact</h2>
+                        <li><i class="fa fa-phone" a href="mailto:me@gmail.com">07000000</i></li>
+                        <li><i class="fa fa-envelope">myemail@gmail.com</i></li>
+                        <li><i class="fa fa-whatsapp">0700000</i></li>
                     </div>
                 </div>
-            </div>
 
-            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                <div class="card">
-                    <img src="images/iso-republic-neon-abstract-background-11.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+
+
+
+
+
+                <!--footer-->
+
+
+                <!--footer-->
+
+
+                <footer>
+                    <div class="footer-social-icons">
+                        <ul>
+                            <li><a href="https://github.com/amiekisiak" target="blank"><i
+                                        class="fab fa-github"></i></i></a></li>
+                            <li><a href="https://www.instagram.com/lavieenroseeeeee/" target="blank"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/aleksandra-m-ab9a4111a/" target="blank"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-
-            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                <div class="card">
-                    <img src="images/iso-republic-neon-abstract-background-11.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>     
- 
-
-
-
-        <!--end of my work section-->
-
-
-        <!--Skills Section/About-->
-
-        <div id="container">
-            <div>
-                <h2>About Me</h2>
-                <p>My name is Ola</p>
-            </div>
-            <div>
-                <h2>Skills</h2>
-                <li>Ola</li>
-                <li> Pola</li>
-                <li>Tola</li>
-            </div>
-            <div>
-                <h2>Contact</h2>
-                <li><i class="fa fa-phone"a href="mailto:me@gmail.com">07000000</i></li>
-                <li><i class="fa fa-envelope">myemail@gmail.com</i></li>
-                <li><i class="fa fa-whatsapp">0700000</i></li>
-            </div>
-        </div>
 
 
 
 
-
-
-
-        <!--footer-->
-
-
-        <footer>
-            <div class="footer-social-icons">
-                <ul>
-                    <li><a href="https://github.com/amiekisiak" target="blank"><i class="fab fa-github"></i></i></a></li>
-                    <li><a href="https://www.instagram.com/lavieenroseeeeee/" target="blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/aleksandra-m-ab9a4111a/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
-                </ul>
-            </div>
-
-
-
-
-        </footer>
-
-
+                </footer>
 
 
 
