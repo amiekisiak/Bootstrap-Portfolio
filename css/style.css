@@ -151,6 +151,15 @@ h2 {
     color: white;
 }
 
+#container p{
+ width: 50%;
+}
+
+#container li{
+width: 100%;
+float: left;
+}
+
 #container.a {
     align-content: center;
     list-style: none;
@@ -192,7 +201,6 @@ h2 {
 #social-wh:hover {
     color: black;
 }
-
 
 
 
