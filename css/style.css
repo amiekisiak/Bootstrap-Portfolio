@@ -72,15 +72,17 @@ h2 {
     display: flex;
     position: center;
     color: white;
-    opacity: 0.7;
     padding: 60px;
     background-color: goldenrod;
 }
 
 .cardContainer {
     display: grid;
-    margin-bottom: 80px;
-    margin-top: 90px;
+    align-content: flex-end;
+    align-content: flex-start;
+  
+   
+   
 }
 
 .cards {
@@ -111,8 +113,7 @@ h2 {
 }
 
 .btn {
-    display: grid;
-    align-content: center;
+    display:grid;
     border-radius: 4px;
     border: 0;
     color: black;
@@ -121,7 +122,7 @@ h2 {
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(30px);
     color: rgba(255, 255, 255, 0.8);
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 2px;
     cursor: pointer;
     text-transform: uppercase;
