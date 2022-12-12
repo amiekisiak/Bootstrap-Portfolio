@@ -141,30 +141,36 @@ h2 {
     flex-wrap: nowrap;
     color: white;
     padding: 80px;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color:goldenrod;
 }
 
 #container h2 {
     display: flex;
+    justify-content: space-between;
     align-content: center;
     color: white;
 }
 
+
 #container p{
  width: 50%;
+ float: left;
 }
 
 #container li{
 width: 100%;
+align-content: center;
 float: left;
+
 }
 
 #container.a {
+    display: flex;
     align-content: center;
+    float:left;
     list-style: none;
     text-decoration: none;
-    display: flex;
     margin: auto;
     cursor: pointer;
 
