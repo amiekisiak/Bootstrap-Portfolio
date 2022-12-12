@@ -167,6 +167,7 @@ float: left;
 
 #container.a {
     display: flex;
+    width: 100%;
     align-content: center;
     float:left;
     list-style: none;
