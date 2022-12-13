@@ -1,7 +1,7 @@
 # Bootstrap-Portfolio
 
 ## Description
-The purpose of this project was to build portfolio layout using the Bootstrap CSS Framework. It was achieved by properly structuring website and adding Bootsrap elements while making it responsive.
+The purpose of this project was to build portfolio layout using the Bootstrap CSS Framework. It was achieved by properly structuring website and adding Bootstrap elements while making it responsive.
 
 ## Installation
 N/A
