@@ -22,7 +22,7 @@ body {
 
     position: fixed;
     top: 0;
-    width: 100%;
+    max-width: 100%;
     display: flex-box;
     justify-content: center;
     background-color: #FFFFFF;
@@ -45,6 +45,7 @@ body {
     background-image: url(/images/barthelemy-de-mazenod-f_mGDtPvMmk-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 100%;
     color:white;
     font-size: xx-large;
     margin: 0;
