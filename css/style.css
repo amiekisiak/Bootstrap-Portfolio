@@ -42,9 +42,11 @@ body {
 /*end of navbar*/
 
 .jumbotron {
-    background-image: url(/images/nick-baker-VuPIUePS_vU-unsplash.jpg);
+    background-image: url(/images/barthelemy-de-mazenod-f_mGDtPvMmk-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color:white;
+    font-size: xx-large;
     margin: 0;
     height: 500px;
     height: cal(100vh - 25px);
